@@ -294,7 +294,7 @@ TR 30881
 <ol>
 <li>Dil bilgisi tweet datasındaki <code>user</code> alanının içindeki <code>lang</code> değeridir. </li>
 <li>1. parametrenin girdi verisinin dizini, 2. parametrenin çıktı verisinin dizini olduğunu hatırlarsak dil parametresi 3. parametredir. </li>
-<li>Sonuçlar karşılaştırılırken dil parametresi <code>tr</code> olarak geçilmiş olan sonuçlar ile karşılaştırılacaktır. Fakat aynı zaman da sonucun doğru olması halinde tam puan alabilmek için kod incelemesi de yapılacaktır.</li>
+<li>Sonuçlar karşılaştırılırken dil parametresi <code>tr</code> (<strong>case-insensitive</strong>) olarak geçilmiş olan sonuçlar ile karşılaştırılacaktır. Fakat aynı zaman da sonucun doğru olması halinde tam puan alabilmek için kod incelemesi de yapılacaktır.</li>
 <li>Çıktıda tek satır bulunacaktır ve bu satırda sadece belirtilen dildeki tweet sayısı belirtilecektir. </li>
 <li>Örnek girdi verisi <code>s3n://t2-hackathon-question-sampledata/4</code> dizininde, çıktı ise <code>s3n://t2-hackathon-sampleanswers/4/output.txt</code> dosyasında mevcuttur.</li>
 </ol><p><strong>Örnek çıktı:</strong></p>
@@ -324,7 +324,7 @@ MAX 2322647593
 <h2>
 <a name="soru-6-15-puan" class="anchor" href="#soru-6-15-puan"><span class="octicon octicon-link"></span></a>Soru-6 [15 Puan]</h2>
 
-<p><code>s3n://t2-hackathon-question-data/6</code>  dizini altında bulunan tüm tweetler incelenerek profil bilgisi <code>tr</code> dilinde olan kullanıcılardan popülarite skoru en yüksek olan kullanıcı ve onun skorunu bulan bir Map/Reduce uygulamasını yazınız. </p>
+<p><code>s3n://t2-hackathon-question-data/6</code>  dizini altında bulunan tüm tweetler incelenerek profil bilgisi <code>tr</code> (<strong>case-insensitive</strong>) dilinde olan kullanıcılardan popülarite skoru en yüksek olan kullanıcı ve onun skorunu bulan bir Map/Reduce uygulamasını yazınız. </p>
 
 <p><strong>Açıklamalar:</strong></p>
 
