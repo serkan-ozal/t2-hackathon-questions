@@ -253,7 +253,7 @@ Soru-4 [10 Puan]
 
 1. Dil bilgisi tweet datasındaki `user` alanının içindeki `lang` değeridir. 
 2. 1. parametrenin girdi verisinin dizini, 2. parametrenin çıktı verisinin dizini olduğunu hatırlarsak dil parametresi 3. parametredir. 
-3. Sonuçlar karşılaştırılırken dil parametresi `tr` olarak geçilmiş olan sonuçlar ile karşılaştırılacaktır. Fakat aynı zaman da sonucun doğru olması halinde tam puan alabilmek için kod incelemesi de yapılacaktır.
+3. Sonuçlar karşılaştırılırken dil parametresi `tr` (**case-insensitive**) olarak geçilmiş olan sonuçlar ile karşılaştırılacaktır. Fakat aynı zaman da sonucun doğru olması halinde tam puan alabilmek için kod incelemesi de yapılacaktır.
 4. Çıktıda tek satır bulunacaktır ve bu satırda sadece belirtilen dildeki tweet sayısı belirtilecektir. 
 5. Örnek girdi verisi `s3n://t2-hackathon-question-sampledata/4` dizininde, çıktı ise `s3n://t2-hackathon-sampleanswers/4/output.txt` dosyasında mevcuttur.
 
@@ -283,7 +283,7 @@ MAX 2322647593
 
 Soru-6 [15 Puan]
 -----------
-`s3n://t2-hackathon-question-data/6`  dizini altında bulunan tüm tweetler incelenerek profil bilgisi `tr` dilinde olan kullanıcılardan popülarite skoru en yüksek olan kullanıcı ve onun skorunu bulan bir Map/Reduce uygulamasını yazınız. 
+`s3n://t2-hackathon-question-data/6`  dizini altında bulunan tüm tweetler incelenerek profil bilgisi `tr` (**case-insensitive**) dilinde olan kullanıcılardan popülarite skoru en yüksek olan kullanıcı ve onun skorunu bulan bir Map/Reduce uygulamasını yazınız. 
 
 **Açıklamalar:**
 
