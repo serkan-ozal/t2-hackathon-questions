@@ -205,7 +205,7 @@ TR 30881
 
 Soru-2 [15 Puan]
 -----------
-`s3n://t2-hackathon-question-data/2/input.txt` dizini altındaki binary dosya **16** byte'lık sabit büyüklükte binary kayıtlar içermektedir. Bu kayıtlar **8 byte**'lık (long) **grup bilgisi** ve **8 byte**'lık (long) **miktar bilgisi** içermektedir. Bu kayıtları inceleyerek her gruptaki toplam miktarı grup numaralarına göre sıralı olarak bulan bir Map/Reduce uygulamasını yazınız. 
+`s3n://t2-hackathon-question-data/2` dizini altındaki tüm binary dosyalar **16** byte'lık sabit büyüklükte binary kayıtlar içermektedir. Bu kayıtlar **8 byte**'lık (long) **grup bilgisi** ve **8 byte**'lık (long) **miktar bilgisi** içermektedir. Bu kayıtları inceleyerek her gruptaki toplam miktarı grup numaralarına göre sıralı olarak bulan bir Map/Reduce uygulamasını yazınız. 
 
 **Açıklamalar:**
 
@@ -356,5 +356,5 @@ Soru-9 [20 Puan]
 **Örnek çıktı:**
 
 ~~~
-140750163 248
+1046019948 387
 ~~~
